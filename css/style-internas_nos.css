@@ -1,0 +1,176 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#tit-seccion {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    background-color: #e4eeff;
+    align-content: center
+}
+
+.tit-seccion {
+
+    background-color: #e4eeff;
+    
+
+}
+
+
+
+
+h1 {
+    font-size: 2rem;
+    color: rgb(69, 115, 196);
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #7b7b7b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #4573c4;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+
+h4{
+        font-size: 1.75rem;
+        color: #7b7b7b;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    color: #2e2e2e;
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* Estilos body */
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+
+
+/* Estilos header */
+header {
+    height: 15%;
+
+
+}
+
+
+
+nav {
+    
+
+
+}
+
+nav ul {
+   
+}
+
+nav ul li {
+    width: 100px;
+    border: 2px solid #6ea3ff;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #4573c4;
+    font-size: 1rem;
+    padding: 4px 6px 4px 6px;
+    margin: 6px;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: #3a7ef4;
+
+}
+
+li:active {
+    background-color: #abcafe;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#tit-seccion {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    background-color: #e4eeff;
+    align-content: center
+}
+
+
+
+/* Estilos main */
+
+main {
+    width: 100%;
+    height: 80vh;    
+    display: inline-block;   
+    position: relative;
+    background-color: #ffffff;
+    
+
+    }
+#img{
+    height: 10%;
+}
+
+.container-p{
+   
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2e2e2e;
+    text-overflow: ellipsis;
+
+}
+   
+
+
+
+
+
+
+
+
+/* Estilos footer */
+footer {
+    height: 8vh;
+
+
+
+}

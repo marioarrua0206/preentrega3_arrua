@@ -1,0 +1,249 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.destacado {
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 80%;
+    color: #2e2e2e;
+    text-overflow: ellipsis;
+
+
+}
+#tit-seccion {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    background-color: #e4eeff;
+    align-content: center
+}
+
+.tit-seccion {
+
+    background-color: #e4eeff;
+    
+
+}
+
+.contenido1 {
+    background-color: rgb(16, 15, 15);
+    width: 100%;
+    height: 50%;
+}
+
+
+
+h1 {
+    font-size: 2rem;
+    color: rgb(69, 115, 196);
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #7b7b7b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #4573c4;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #2e2e2e;
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* Estilos body */
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+
+
+/* Estilos header */
+header {
+    height: 15%;
+
+
+}
+
+
+
+nav {
+    
+
+
+}
+
+nav ul {
+   
+}
+
+nav ul li {
+    width: 100px;
+    border: 2px solid #6ea3ff;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #4573c4;
+    font-size: 1rem;
+    padding: 4px 6px 4px 6px;
+    margin: 6px;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: #3a7ef4;
+
+}
+
+li:active {
+    background-color: #abcafe;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#tit-seccion {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    background-color: #e4eeff;
+    align-content: center
+}
+
+
+
+/* Estilos main */
+
+main {
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff;
+
+}
+
+.contenedor{
+    margin: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 card6";
+
+        
+}
+#card1{
+    grid-area: card1;
+}
+#card2{
+    grid-area: card2;
+}
+#card3{
+    grid-area: card3;
+}
+#card4{
+    grid-area: card4;
+}
+#card5{
+    grid-area: card5;
+}
+#card6{
+    grid-area: card6;
+}
+
+
+.tarjeta {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-bottom: 1px solid #afafaf;
+    text-align: center;
+    align-items: center;
+    margin-bottom: %;
+
+
+
+}
+
+
+
+/* Estilos footer */
+footer {
+    height: 8vh;
+
+
+
+}
+
+
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 992px) {
+
+
+    .contenedor{
+    margin: 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        grid-template-areas:
+        "card1 card2"
+        "card3 card4" 
+        "card5 card6";
+    
+            
+    }
+   
+
+
+
+
+
+@media screen and (max-width: 600px) {
+   
+    
+    .contenedor{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        grid-template-areas:
+        "card1 card2"
+        "card3 card4" 
+        "card5 card6";
+    
+            
+    }
+
+}
+
+@media screen and (max-width: 480px) {}

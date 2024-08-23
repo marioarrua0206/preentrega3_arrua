@@ -1,0 +1,240 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box div {
+    width: auto;
+    height: auto;
+}
+
+.destacado {
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 80%;
+    color: #ffffff;
+    margin-top: 10px;
+
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(69, 115, 196);
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #7b7b7b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #4573c4;
+    align-content: center;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #2e2e2e;
+    align-content: center;
+}
+
+p {
+    font-size: 1rem;
+    color: #2e2e2e;
+}
+
+/* Estilos body */
+
+body {
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+/* Estilos header */
+header {
+    height: 15%;
+
+
+}
+
+
+
+nav {
+    
+
+
+}
+
+nav ul {
+   
+}
+
+nav ul li {
+    width: 100px;
+    border: 2px solid #6ea3ff;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #4573c4;
+    font-size: 1rem;
+    padding: 4px 6px 4px 6px;
+    margin: 6px;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: #3a7ef4;
+
+}
+
+li:active {
+    background-color: #abcafe;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#tit-seccion {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    background-color: #e4eeff;
+    align-content: center
+}
+
+
+
+
+/* Estilos main */
+
+main {
+    background-color: #acbedd;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 0.25fr 4fr 10fr 0.25fr;
+    grid-template-rows: 0.25fr 2fr 0.25fr;
+    column-gap: 14px;
+    row-gap: 14px;
+    grid-template-areas:
+        "Sect1 Sect1 Sect1 Sect1"
+        "Sect2 Sect3 Sect4 Sect5"
+        "Sect6 Sect6 Sect6 Sect6"
+    ;
+
+}
+
+#sect1 {
+    grid-area: Sect1;
+}
+
+#sect2 {
+    grid-area: Sect2;
+}
+
+#sect3 {
+    background-color: rgb(199, 224, 247);
+    grid-area: Sect3;
+    padding: 1rem;
+}
+
+#sect4 {
+    background-color: rgb(199, 224, 247);
+    grid-area: Sect4;
+    padding: 1rem;
+
+
+}
+
+#sect5 {
+    grid-area: Sect5;
+
+}
+
+#sect6 {
+    grid-area: Sect6;
+
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 992px) {
+
+
+    main {
+        height: 120vh;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: 0.5fr 2fr 2fr 0.5fr;
+        grid-template-areas:
+            "Sect1 Sect1 Sect1"
+            "Sect2 Sect3 Sect5"
+            "Sect2 Sect4 Sect5"
+            "Sect6 Sect6 Sect6"
+        ;
+
+    }
+
+
+    #sect4 {
+        background-color: rgb(199, 224, 247);
+        grid-area: Sect4;
+        display: ;
+
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    main {
+        height: 120vh;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: 0.5fr 1fr 8fr 0.5fr;
+        grid-template-areas:
+            "Sect1 Sect1 Sect1"
+            "Sect2 Sect3 Sect5"
+            "Sect2 Sect4 Sect5"
+            "Sect6 Sect6 Sect6"
+        ;
+
+    }
+
+
+    #sect4 {
+        background-color: rgb(199, 224, 247);
+        grid-area: Sect4;
+        padding: 0.5rem;
+
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {}
+
+
+/* Estilos footer */
