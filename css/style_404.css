@@ -45,7 +45,7 @@ p {
 
 body {
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     background-color: rgb(255, 255, 255);
@@ -58,19 +58,26 @@ body {
 /* Estilos header */
 header {
     height: 15%;
-
+    
 
 }
 
 
+nav {
+       
 
+}
+
+nav ul {
+
+}
 
 nav ul li {
     width: 100px;
     border: 2px solid #6ea3ff;
     text-align: center;
     border-radius: 8px;
-    background-color: #4573c4;
+    background-color: #4573c4;    
     font-size: 1rem;
     padding: 4px 6px 4px 6px;
     margin: 6px;
@@ -100,71 +107,29 @@ a {
 
 /* Estilos main */
 main {
-    height:80vh;
+    height: 80vh;
+    width: auto;
+    
+    background-image: url("../imagenes/404.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+    
 
+    
 
-#miweb {
-    grid-area: miweb;
-    padding-bottom: 12px;
-
-    background-color: rgba(246, 167, 40, 0.936);
-
-
-}
-
-
-#miweb-img {
-    grid-area: miwebimg;
-    background-color: #ffe4b2;
-    background-image: url("../imagenes/design.png");
-}
-
-#blog {
-    grid-area: blog;
-    background-color: rgb(255, 189, 7);
-
-}
-
-#blog-img {
-    grid-area: blogimg;
-
-    background-image: url("../imagenes/sign.png");
-}
-
-#doscol {
-    height: %;
-
-}
-
-#personal {
-
-    background-color: darkorange;
-    padding-bottom: 12px;
-
-}
-
-#per-img {
-    background-image: url("../imagenes/personal.jpg");
-
-}
 
 /* Estilos footer */
-/* .footer {
-    height: 25vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.footer {
+    height: 8vh;
 
 
-} */
+}
 
-/* #footer {
-    height: 25vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-} */
-
-
+#foot {
+    height: 100%;
+}
 
 @media screen and (max-width: 1200px) {}
 
@@ -175,7 +140,7 @@ main {
         height: 15vh;
     }
 
-    }
+    
 
     h1 {
         font-size: 1.5rem;
@@ -199,7 +164,7 @@ main {
         color: #2e2e2e;
     }
 
-
+    
 
 }
 

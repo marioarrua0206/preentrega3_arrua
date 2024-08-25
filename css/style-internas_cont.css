@@ -77,15 +77,9 @@ header {
 
 
 
-nav {
-    
 
 
-}
 
-nav ul {
-   
-}
 
 nav ul li {
     width: 100px;
@@ -130,9 +124,10 @@ a {
 
 main {
     background-color: #acbedd;
-    height: 80vh;
+    height: auto;
+    overflow: auto;
     display: grid;
-    grid-template-columns: 0.25fr 4fr 10fr 0.25fr;
+    grid-template-columns: 1fr 4fr 2fr 1fr;
     grid-template-rows: 0.25fr 2fr 0.25fr;
     column-gap: 14px;
     row-gap: 14px;
@@ -162,12 +157,18 @@ main {
     background-color: rgb(199, 224, 247);
     grid-area: Sect4;
     padding: 1rem;
-
+    background-image: url("../imagenes/mapa.jpg");
+    
+}
+#titulo{
+    background-color: #e4eeff;
+    padding: 8px;
 
 }
 
 #sect5 {
     grid-area: Sect5;
+  
 
 }
 
@@ -184,15 +185,25 @@ main {
 
 
     main {
-        height: 120vh;
-        grid-template-columns: 0.5fr 2fr 0.5fr;
-        grid-template-rows: 0.5fr 2fr 2fr 0.5fr;
+        height: 80vh;
+        grid-template-columns:  5fr 5fr;
+        grid-template-rows: 0.25fr 9fr 0.25fr;
+        column-gap: 14px;
+        row-gap: 14px;
         grid-template-areas:
-            "Sect1 Sect1 Sect1"
-            "Sect2 Sect3 Sect5"
-            "Sect2 Sect4 Sect5"
-            "Sect6 Sect6 Sect6"
+            "Sect1 Sect1"
+            "Sect3 Sect4"
+            "Sect6 Sect6"
         ;
+
+    }
+    #sect2{
+        display: none;
+
+    }
+
+    #sect5{
+        display: none;
 
     }
 
@@ -200,29 +211,24 @@ main {
     #sect4 {
         background-color: rgb(199, 224, 247);
         grid-area: Sect4;
-        display: ;
+        
 
     }
 }
+
+@media screen and (max-width: 768px) {
+     
+   
+    
+
+    }
 
 
 
 
 
 @media screen and (max-width: 600px) {
-    main {
-        height: 120vh;
-        grid-template-columns: 0.5fr 2fr 0.5fr;
-        grid-template-rows: 0.5fr 1fr 8fr 0.5fr;
-        grid-template-areas:
-            "Sect1 Sect1 Sect1"
-            "Sect2 Sect3 Sect5"
-            "Sect2 Sect4 Sect5"
-            "Sect6 Sect6 Sect6"
-        ;
-
-    }
-
+  
 
     #sect4 {
         background-color: rgb(199, 224, 247);
@@ -237,4 +243,3 @@ main {
 @media screen and (max-width: 480px) {}
 
 
-/* Estilos footer */
