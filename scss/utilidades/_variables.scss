@@ -1,0 +1,45 @@
+$clr-in: #4573c4;
+$clr-sd: #6ea3ff;
+$ancho-btn: 100px;
+
+
+@mixin botones-st {
+
+    width: 100px;
+    border: 2px $clr-sd;
+    text-align: center;
+    border-radius: 8px;
+    background-color: $clr-in;
+    font-size: 1rem;
+    padding: 4px 6px 4px 6px;
+    margin: 6px;
+    list-style-type: none;
+}
+
+@mixin hover {
+    background-color: #3a7ef4;
+    box-shadow: 20 #2e2e2e;
+    transition: background-color 0.5s;
+    transform: scale(1.1, 1.1);
+    transition: 0.8s ease-out;
+
+}
+
+@mixin active {
+    background-color: #abcafe;
+}
+
+@mixin a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@mixin destacado {
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 80%;
+    color: #2e2e2e;
+    text-overflow: ellipsis;
+}
+

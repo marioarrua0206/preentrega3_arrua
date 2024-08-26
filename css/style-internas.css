@@ -1,130 +1,49 @@
-/* Estilos generales */
+@import url(link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-.destacado {
-    font-size: 1.2rem;
-    font-weight: 400;
-    width: 80%;
-    color: #2e2e2e;
-    text-overflow: ellipsis;
-
-
-}
-#tit-seccion {
-    width: 100vw;
-    height: 15vh;
-    text-align: center;
-    background-color: #e4eeff;
-    align-content: center
-}
-
-.tit-seccion {
-
-    background-color: #e4eeff;
-    
-
-}
-
-.contenido1 {
-    background-color: rgb(16, 15, 15);
-    width: 100%;
-    height: 50%;
-}
-
-
 
 h1 {
-    font-size: 2rem;
-    color: rgb(69, 115, 196);
-    font-weight: 200;
+  font-size: 2rem;
+  color: rgb(69, 115, 196);
+  font-weight: 200;
 }
 
 h2 {
-    font-size: 2.5rem;
-    color: #7b7b7b;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #7b7b7b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
 h3 {
-    font-size: 1rem;
-    color: #4573c4;
-    align-content: center;
-    margin-bottom: 0;
+  font-size: 1rem;
+  color: #4573c4;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #2e2e2e;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 2.5rem;
+  color: #fed193;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
 p {
-    font-size: 1rem;
-    color: #2e2e2e;
-    text-align: left;
-    padding-left: 50px;
+  font-size: 1rem;
+  color: #2e2e2e;
 }
-
-/* Estilos body */
-
-body {
-    width: 100%;
-    height: 100vh;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    background-color: rgb(255, 255, 255);
-
-
-
-}
-
-
-
-/* Estilos header */
-header {
-    height: 15%;
-
-
-}
-
-
-
-nav {
-    
-
-
-}
-
-nav ul {
-   
-}
-
-nav ul li {
-    width: 100px;
-    border: 2px solid #6ea3ff;
-    text-align: center;
-    border-radius: 8px;
-    background-color: #4573c4;
-    font-size: 1rem;
-    padding: 4px 6px 4px 6px;
-    margin: 6px;
-    list-style-type: none;
-}
-
-li:hover {
-    background-color: #3a7ef4;
-
-}
-
-li:active {
-    background-color: #abcafe;
-
-}
-
-a {
-    text-decoration: none;
-    color: white;
-
-}
-
 #tit-seccion {
     width: 100vw;
     height: 15vh;
@@ -133,7 +52,59 @@ a {
     align-content: center
 }
 
+/* Estilos body */
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+}
 
+/* Estilos header */
+header {
+  height: 15%;
+}
+
+nav ul li {
+  width: 100px;
+  border: 2px #6ea3ff;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #4573c4;
+  font-size: 1rem;
+  padding: 4px 6px 4px 6px;
+  margin: 6px;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: #3a7ef4;
+  box-shadow: 20 #2e2e2e;
+  transition: background-color 0.5s;
+  transform: scale(1.1, 1.1);
+  transition: 0.8s ease-out;
+}
+
+li:active {
+  background-color: #abcafe;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    height: 15vh;
+  }
+}
+h1 {
+  font-size: 1.25rem;
+  color: rgb(69, 115, 196);
+  font-weight: 200;
+}
 
 /* Estilos main */
 
@@ -222,11 +193,6 @@ footer {
             
     }
    
-
-
-
-
-
 @media screen and (max-width: 600px) {
    
     
@@ -240,10 +206,11 @@ footer {
         "card1 card2"
         "card3 card4" 
         "card5 card6";
-    
-            
     }
 
 }
 
 @media screen and (max-width: 480px) {}
+
+
+/*# sourceMappingURL=style.css.map */
