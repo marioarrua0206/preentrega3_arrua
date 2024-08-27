@@ -105,11 +105,14 @@ main {
   height:80vh;
 }
 
+#cuatrocol{
+  height: 50%;
+}
 
 #miweb {
+  
   grid-area: miweb;
   padding-bottom: 12px;
-
   background-color: rgba(246, 167, 40, 0.936);
 
 
@@ -130,16 +133,16 @@ main {
 
 #blog-img {
   grid-area: blogimg;
-
   background-image: url("../imagenes/sign.png");
 }
 
 #doscol {
-  height: %;
+  height: 50%;
 
 }
 
 #personal {
+  
 
   background-color: darkorange;
   padding-bottom: 12px;
